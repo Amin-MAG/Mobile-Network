@@ -5,7 +5,10 @@ import android.util.Log
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import ir.iust.apps.mobilenetwork.fragments.LoginFragment
+import ir.iust.apps.mobilenetwork.fragments.SignupFragment
 import ir.iust.apps.mobilenetwork.utils.UiUtils
+import ir.iust.apps.mobilenetwork.viewmodels.MainViewModel
 
 
 class MainActivity : AppCompatActivity() {

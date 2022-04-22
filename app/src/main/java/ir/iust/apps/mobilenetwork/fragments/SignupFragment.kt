@@ -1,4 +1,4 @@
-package ir.iust.apps.mobilenetwork
+package ir.iust.apps.mobilenetwork.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -11,6 +11,10 @@ import androidx.fragment.app.viewModels
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textview.MaterialTextView
+import ir.iust.apps.mobilenetwork.viewmodels.MainViewModel
+import ir.iust.apps.mobilenetwork.Pages
+import ir.iust.apps.mobilenetwork.R
+import ir.iust.apps.mobilenetwork.Regex
 
 class SignupFragment : Fragment() {
 
@@ -23,11 +27,6 @@ class SignupFragment : Fragment() {
     private lateinit var signupBtn: MaterialButton
     private lateinit var goToLoginBtn: MaterialTextView
     private lateinit var backBtn: MaterialButton
-
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

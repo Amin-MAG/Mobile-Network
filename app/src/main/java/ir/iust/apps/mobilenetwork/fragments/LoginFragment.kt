@@ -1,4 +1,4 @@
-package ir.iust.apps.mobilenetwork
+package ir.iust.apps.mobilenetwork.fragments
 
 import android.graphics.Color
 import android.os.Bundle
@@ -13,6 +13,10 @@ import androidx.fragment.app.viewModels
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textview.MaterialTextView
+import ir.iust.apps.mobilenetwork.viewmodels.MainViewModel
+import ir.iust.apps.mobilenetwork.Pages
+import ir.iust.apps.mobilenetwork.R
+import ir.iust.apps.mobilenetwork.Regex
 import java.util.*
 
 class LoginFragment : Fragment() {
@@ -27,10 +31,6 @@ class LoginFragment : Fragment() {
     private lateinit var googleBtn: MaterialButton
     private lateinit var facebookBtn: MaterialButton
     private lateinit var goToSignupBtn: MaterialTextView
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

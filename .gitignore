@@ -9,3 +9,9 @@
 .cxx
 local.properties
 *.log
+
+# APK Keys
+.secrets
+
+# outputs
+app/release
